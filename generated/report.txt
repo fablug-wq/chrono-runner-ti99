@@ -1,0 +1,66 @@
+Livelli: 29 principali + 4 segreti
+Record oggetti livello: 113 byte
+Banco 1 (grafica): 6144 byte
+Banco 2 (livelli 0-8): 7353 byte di dati
+Banco 3 (livelli 9-17): 7353 byte di dati
+Banco 4 (livelli 18-26): 7353 byte di dati
+Banco 5 (livelli 27-32): 4902 byte di dati
+Banco 6 (schermate UI): 6144 byte
+Banco 7 (schermate cutscene): 7168 byte
+Banco 8 (script cutscene): 3572 byte
+Banco 9 (boss): 2304 byte
+Logo AMI: 488 byte (banco 13)
+
+Sequenza: [g_IntroCutscene] L0 L1 L2 L3 [g_World1MidCutscene] L4 L5 L6 [g_World1EndCutscene] L7 L8 L9 L10 [g_World2MidCutscene] L11 L12 L13 [g_World2EndCutscene] L14 L15 L16 L17 [g_World3MidCutscene] L18 L19 L20 [g_World3EndCutscene] L21 L22 L23 L24 [g_World4MidCutscene] L25 L26 L27 [g_World4EndCutscene] [g_TrueColorsCutscene] [g_PreBossCutscene] L28 [g_PreFightCutscene] [BOSS] [g_FinalCutscene] [g_TrueEndingCutscene]
+
+Ordine livelli (indice: struct -> file, schermata, nome):
+   0  banco 2  level_map25  map25_lvl.h    screen_25  GATEWAY TO BUILDING 1
+   1  banco 2  level_map4   map04_lvl.h    screen_4   SO IT BEGINS - LEONARDO VETTORI
+   2  banco 2  level_map7   map07_lvl.h    screen_7   THE FACTORY - LEONARDO VETTORI
+   3  banco 2  level_map34  map34_lvl.h    screen_34  THE CLIMB - FABRIZIO LUGLIO
+   4  banco 2  level_map19  map19_lvl.h    screen_19  SUICIDE PIT - E. DEL CUCINA
+   5  banco 2  level_map6   map06_lvl.h    screen_6   THE PRISON - LEONARDO VETTORI
+   6  banco 2  level_map16  map16_lvl.h    screen_16  RONIN - GIANLUCA GAGGI
+   7  banco 2  level_map26  map26_lvl.h    screen_26  GATEWAY TO BUILDING 2
+   8  banco 2  level_map9   map09_lvl.h    screen_9   THE TOWER - LEONARDO VETTORI
+   9  banco 3  level_map8   map08_lvl.h    screen_8   THE CHASM - LEONARDO VETTORI
+  10  banco 3  level_map17  map17_lvl.h    screen_17  SF - STEFANO FORTE
+  11  banco 3  level_map22  map22_lvl.h    screen_22  WHAT LIES BENEATH - O. CACCIOLA
+  12  banco 3  level_map23  map23_lvl.h    screen_23  PIPES AND ROBOTS - O. CACCIOLA
+  13  banco 3  level_map31  map31_lvl.h    screen_31  CRYSTALCHEM - MAX PRIVRAT
+  14  banco 3  level_map27  map27_lvl.h    screen_27  GATEWAY TO BUILDING 3
+  15  banco 3  level_map18  map18_lvl.h    screen_18  PUNISHER - GIANLUCA GAGGI
+  16  banco 3  level_map11  map11_lvl.h    screen_11  THE FORTRESS - LEONARDO VETTORI
+  17  banco 3  level_map33  map33_lvl.h    screen_33  LEVEL 33 - FABRIZIO LUGLIO
+  18  banco 4  level_map10  map10_lvl.h    screen_10  THE ABYSS - LEONARDO VETTORI
+  19  banco 4  level_map35  map35_lvl.h    screen_35  LEVEL 35 - FABRIZIO LUGLIO
+  20  banco 4  level_map20  map20_lvl.h    screen_20  CHALLENGE - E. DEL CUCINA
+  21  banco 4  level_map28  map28_lvl.h    screen_28  GATEWAY TO BUILDING 4
+  22  banco 4  level_map30  map30_lvl.h    screen_30  EASY PEASY - LORENZO MORETTI
+  23  banco 4  level_map12  map12_lvl.h    screen_12  THE SUMMIT - LEONARDO VETTORI
+  24  banco 4  level_map24  map24_lvl.h    screen_24  DARK DESCENT - ALFIO A. CORSARO
+  25  banco 4  level_map29  map29_lvl.h    screen_29  TWISTER - ORAZIO CACCIOLA
+  26  banco 4  level_map21  map21_lvl.h    screen_21  FIELD DESCENT - E. DEL CUCINA
+  27  banco 5  level_map32  map32_lvl.h    screen_32  LEVEL 32 - ORLANDO DI SIENA
+  28  banco 5  level_map13  map13_lvl.h    screen_13  THE ESCAPE - LEONARDO VETTORI
+  29  banco 5  level_map48  map48_lvl.h    screen_48    [segreto]
+  30  banco 5  level_map49  map49_lvl.h    screen_49    [segreto]
+  31  banco 5  level_map47  map47_lvl.h    screen_47    [segreto]
+  32  banco 5  level_map50  map50_lvl.h    screen_50    [segreto]
+
+Costanti sprite:
+  FR_PLAYER       =   0
+  FR_KEY          =  88
+  FR_CRYSTAL      =  96
+  FR_DOC          = 104
+  FR_VORTEX       = 120
+  FR_PLATFORM     = 132
+  FR_MINE         = 136
+  FR_BOOM         = 140
+  FR_ENEMY0       = 144
+  FR_ENEMY1       = 168
+  FR_ENEMY2       = 192
+  FR_ENEMY3       = 216
+  FR_ENERGYFIELD  = 240
+  FR_BULLET       = 248
+  FR_HITLER       = 252

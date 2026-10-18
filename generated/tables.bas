@@ -1,0 +1,36 @@
+' Generato da tools/gen_tables.py - NON modificare a mano
+' Indice = byte dell'accumulatore (0-255, i negativi da 128 in su)
+dpos_q:
+	DATA BYTE $00,$00,$00,$00,$00,$00,$00,$00,$01,$01,$01,$01,$01,$01,$01,$02
+	DATA BYTE $02,$02,$02,$02,$02,$02,$03,$03,$03,$03,$03,$03,$03,$04,$04,$04
+	DATA BYTE $04,$04,$04,$04,$05,$05,$05,$05,$05,$05,$05,$06,$06,$06,$06,$06
+	DATA BYTE $06,$06,$07,$07,$07,$07,$07,$07,$07,$08,$08,$08,$08,$08,$08,$08
+	DATA BYTE $08,$08,$08,$08,$08,$08,$08,$08,$09,$09,$09,$09,$09,$09,$09,$0A
+	DATA BYTE $0A,$0A,$0A,$0A,$0A,$0A,$0B,$0B,$0B,$0B,$0B,$0B,$0B,$0C,$0C,$0C
+	DATA BYTE $0C,$0C,$0C,$0C,$0D,$0D,$0D,$0D,$0D,$0D,$0D,$0E,$0E,$0E,$0E,$0E
+	DATA BYTE $0E,$0E,$0F,$0F,$0F,$0F,$0F,$0F,$0F,$10,$10,$10,$10,$10,$10,$10
+	DATA BYTE $F0,$F0,$F0,$F0,$F0,$F0,$F0,$F0,$F1,$F1,$F1,$F1,$F1,$F1,$F1,$F2
+	DATA BYTE $F2,$F2,$F2,$F2,$F2,$F2,$F3,$F3,$F3,$F3,$F3,$F3,$F3,$F4,$F4,$F4
+	DATA BYTE $F4,$F4,$F4,$F4,$F5,$F5,$F5,$F5,$F5,$F5,$F5,$F6,$F6,$F6,$F6,$F6
+	DATA BYTE $F6,$F6,$F7,$F7,$F7,$F7,$F7,$F7,$F7,$F8,$F8,$F8,$F8,$F8,$F8,$F8
+	DATA BYTE $F8,$F8,$F8,$F8,$F8,$F8,$F8,$F8,$F9,$F9,$F9,$F9,$F9,$F9,$F9,$FA
+	DATA BYTE $FA,$FA,$FA,$FA,$FA,$FA,$FB,$FB,$FB,$FB,$FB,$FB,$FB,$FC,$FC,$FC
+	DATA BYTE $FC,$FC,$FC,$FC,$FD,$FD,$FD,$FD,$FD,$FD,$FD,$FE,$FE,$FE,$FE,$FE
+	DATA BYTE $FE,$FE,$FF,$FF,$FF,$FF,$FF,$FF,$FF,$00,$00,$00,$00,$00,$00,$00
+dpos_r:
+	DATA BYTE $00,$01,$02,$03,$04,$05,$06,$07,$00,$01,$02,$03,$04,$05,$06,$07
+	DATA BYTE $00,$01,$02,$03,$04,$05,$06,$07,$00,$01,$02,$03,$04,$05,$06,$07
+	DATA BYTE $00,$01,$02,$03,$04,$05,$06,$07,$00,$01,$02,$03,$04,$05,$06,$07
+	DATA BYTE $00,$01,$02,$03,$04,$05,$06,$07,$00,$01,$02,$03,$04,$05,$06,$07
+	DATA BYTE $00,$01,$02,$03,$04,$05,$06,$07,$00,$01,$02,$03,$04,$05,$06,$07
+	DATA BYTE $00,$01,$02,$03,$04,$05,$06,$07,$00,$01,$02,$03,$04,$05,$06,$07
+	DATA BYTE $00,$01,$02,$03,$04,$05,$06,$07,$00,$01,$02,$03,$04,$05,$06,$07
+	DATA BYTE $00,$01,$02,$03,$04,$05,$06,$07,$00,$01,$02,$03,$04,$05,$06,$07
+	DATA BYTE $00,$F9,$FA,$FB,$FC,$FD,$FE,$FF,$00,$F9,$FA,$FB,$FC,$FD,$FE,$FF
+	DATA BYTE $00,$F9,$FA,$FB,$FC,$FD,$FE,$FF,$00,$F9,$FA,$FB,$FC,$FD,$FE,$FF
+	DATA BYTE $00,$F9,$FA,$FB,$FC,$FD,$FE,$FF,$00,$F9,$FA,$FB,$FC,$FD,$FE,$FF
+	DATA BYTE $00,$F9,$FA,$FB,$FC,$FD,$FE,$FF,$00,$F9,$FA,$FB,$FC,$FD,$FE,$FF
+	DATA BYTE $00,$F9,$FA,$FB,$FC,$FD,$FE,$FF,$00,$F9,$FA,$FB,$FC,$FD,$FE,$FF
+	DATA BYTE $00,$F9,$FA,$FB,$FC,$FD,$FE,$FF,$00,$F9,$FA,$FB,$FC,$FD,$FE,$FF
+	DATA BYTE $00,$F9,$FA,$FB,$FC,$FD,$FE,$FF,$00,$F9,$FA,$FB,$FC,$FD,$FE,$FF
+	DATA BYTE $00,$F9,$FA,$FB,$FC,$FD,$FE,$FF,$00,$F9,$FA,$FB,$FC,$FD,$FE,$FF
